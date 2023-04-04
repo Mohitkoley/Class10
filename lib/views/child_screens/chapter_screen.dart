@@ -49,10 +49,10 @@ class _ChapterScreenState extends State<ChapterScreen> {
                           MaterialPageRoute(
                               builder: (context) => PdfView(
                                     data: {
-                                      // "url":
-                                      //     "${ApiUrl.baseUrl}/api/${data.pdf}",
                                       "url":
-                                          "https://classten.onrender.com/api/uploads/pdfs/1679307357553-1. Home Page_Final.pdf",
+                                          "${ApiUrl.baseUrl}/api/${data.pdf}",
+                                      // "url":
+                                      //     "https://classten.onrender.com/api/uploads/pdfs/1679307357553-1. Home Page_Final.pdf",
                                       "name": data.name
                                     },
                                   )));
